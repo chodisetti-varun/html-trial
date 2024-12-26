@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label, input, select, button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input, select, button {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+ <div align="center">
+        <h1>Registration Form</h1>
+        <form>
+            <label>Name:</label>
+            <input type="text">
+            <label>Email:</label>
+            <input type="email">
+            <label>Password:</label>
+            <input type="password">
+            <label>Select Course:</label>
+            <select>
+                <option>-- Select a Course --</option>
+                <option>Web Development</option>
+                <option>Data Science</option>
+                <option>Cloud Computing</option>
+                <option>Cyber Security</option>
+                <option>AI & Machine Learning</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
